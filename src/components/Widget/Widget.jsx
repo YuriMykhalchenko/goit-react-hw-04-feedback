@@ -76,5 +76,9 @@ export function Widget({ initialGood, initialNeutral, initialBad }) {
 Widget.propTypes = {
   initialGood: PropTypes.number.isRequired,
   initialNeutral: PropTypes.number.isRequired,
-  initialBad: PropTypes.number.isRequired,
+  initialBad: PropTypes.number.isRequired,good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
 };
